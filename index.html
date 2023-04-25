@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT APPLICATION FORM</title>
+    <STYLE>
+        .DIV{
+            width: 600PX;
+            height: 830px;
+            background-color: aqua;
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4gbXKyEr3cp6nRumWwSTMPUX4JNFswp5nMw&usqp=CAU);
+            text-align: left;
+            font-weight: bolder;
+            
+        }
+        .div2{
+            text-align: center;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+        .LEGEND{
+            font-style: italic;
+            color: brown;
+            font-weight: bolder;
+        }
+        
+    </STYLE>
+</head>
+<body>
+    <CENTER>
+    <DIV CLASS="DIV">
+    <form>
+        <fieldset>
+            <legend CLASS="LEGEND">STUDENT APPLICATION FORM</legend>
+            <BR/>
+            <BR/>
+            FIRSTNAME:
+            <INPUT TYPE="TEXTBOX" NAME="FIRSTNAME" autofocus="" placeholder="ENTER YOUR FIRSTNAME" required=""/>
+            <BR/>
+            <BR/>
+            MIDDLE NAME:
+            <INPUT TYPE="TEXTBOX" NAME="MIDDLENAME"placeholder="ENTER YOUR MIDDLENAME"/>
+            <BR/>
+            <BR/>
+            LAST NAME:
+<INPUT TYPE="TEXTBOX" NAME="LASTNAME"placeholder="ENTER YOUR LASTNAME"required=""/>
+<BR/>
+<BR/>
+AGE:
+<input type="NUMBER" name="AGE" min="18" max="35" required=""/>
+<BR/>
+<BR/>
+DATE OF BIRTH:
+<input type="DATE" name="DATE" required=""/>
+<BR/>
+<BR/>
+ADDRESS:
+<TEXTAREA NAME="ADDRESS"></TEXTAREA>
+<BR/>
+<BR/>
+COLLEGE NAME:
+<INPUT TYPE="TEXTBOX" NAME="COLLEGE"placeholder="ENTER YOUR COLLEGE NAME" required=""/>
+<BR/>
+<BR/>
+COURSE:
+<SELECT>
+    <option value="B.Tech">B.Tech</option>
+    <option value="M.Tech">M.Tech</option>
+</SELECT>
+<BR/>
+<BR/>
+YEAR:
+<SELECT>
+    <option value="1ST YEAR">1ST YEAR</option>
+    <option value="2ND YEAR">2ND YEAR</option>
+    <option value="3RD YEAR">3RD YEAR</option>
+    <option value="4TH YEAR">4TH TEAR</option>
+</SELECT>
+<BR/>
+<BR/>
+DEPARTMENT:
+<select>
+    <option value="ELECTRONICS AND COMMUNICATION ENGINEERING">ELECTRONICS AND COMMUNICATION ENGINEERING</option>
+    <option value="COMPUTER SCIENCE ENGINEERING">COMPUTER SCIENCE ENGINEERING</option>
+    <option value="INFORMATION TECHNOLOGY">INFORMATION TECHNOLOGY</option>
+</select>
+<BR/>
+<BR/>
+APPLYING FOR COURSE:
+       <select>
+        <optgroup LABEL="DSA">
+            <OPTION VALUE="IN C++">DSA IN C++</OPTION>
+            <option value="IN JAVA">DSA IN JAVA</option>
+            <OPTION value="IN C">DSA IN C</OPTION>
+        </optgroup>
+        <optgroup LABEL="WEB DWVELOPMENT">
+            <option value="FRONT END">FRONT END</option>
+            <option value="BACK END">BACK END</option>
+            <option value="FULL STACK">FULL STACK</option>
+        </optgroup>
+       </select>
+       <BR/>
+       <BR/>
+       GENDER:
+       <INPUT type="RADIO" value="MALE" name="GENDER"/>MALE
+       <INPUT type="RADIO" value="FEMALE" name="GENDER"/>FEMALE
+       <INPUT type="RADIO" value="OTHER" name="GENDER"/>OTHER
+       <BR/>
+       <BR/>
+       HOBBIES:
+       <INPUT type="CHECKBOX" value="SINGING" name="HOBBIES[]"/>SINGING
+       <INPUT type="CHECKBOX" value="DANCING" name="HOBBIES[]"/>DANCING
+       <INPUT type="CHECKBOX" value="PAINTING" name="HOBBIES[]"/>PAINTING
+       <INPUT type="CHECKBOX" value="WRITING" name="HOBBIES[]"/>WRITING
+       <INPUT type="CHECKBOX" value="ANY OTHER" name="HOBBIES[]"/>ANY OTHER
+       <BR/>
+       <BR/>
+       PHONE NUMBER:
+       <INPUT type="TEXTBOX" name="PHONE NUMBER" value="+91"/>
+       <INPUT type="TEXTBOX" name="PHONE NUMBER" value="+91"/>
+       <BR/>
+       <BR/>
+       UPLOAD CV:
+       <INPUT type="FILE" name="CV"/>
+       <BR/>
+       <BR/>
+       EMAIL ID:
+       <input type="EMAIL" name="EMAIL" required=""/>
+       <BR/>
+       <BR/>
+       PASSWORD:
+       <input type="PASSWORD" name="PASSWORD" required=""/>
+       <BR/>
+       <BR/>
+       RE-TYPE PASSWORD:
+       <input type="PASSWORD" name="RE-TYPE PASSWORD" required=""/>
+       <BR/>
+       <BR/>
+       <div class="div2">
+       <input type="SUBMIT" name="SUBMIT"/>
+       <input type="RESET" name="RESET"/>
+       </div>
+        </fieldset>
+    </form>
+    </DIV>
+    </CENTER>
+</body>
+</html>
